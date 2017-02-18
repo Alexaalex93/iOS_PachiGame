@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7950201E5849FE007B489E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79501F1E5849FE007B489E /* AppDelegate.swift */; };
+		FA7950221E5849FE007B489E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA7950211E5849FE007B489E /* GameScene.sks */; };
+		FA7950241E5849FE007B489E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA7950231E5849FE007B489E /* Actions.sks */; };
+		FA7950261E5849FE007B489E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7950251E5849FE007B489E /* GameScene.swift */; };
+		FA7950281E5849FE007B489E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7950271E5849FE007B489E /* GameViewController.swift */; };
+		FA79502B1E5849FE007B489E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7950291E5849FE007B489E /* Main.storyboard */; };
+		FA79502D1E5849FE007B489E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA79502C1E5849FE007B489E /* Assets.xcassets */; };
+		FA7950301E5849FE007B489E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA79502E1E5849FE007B489E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA79501C1E5849FE007B489E /* Pachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA79501F1E5849FE007B489E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7950211E5849FE007B489E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FA7950231E5849FE007B489E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FA7950251E5849FE007B489E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FA7950271E5849FE007B489E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FA79502A1E5849FE007B489E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA79502C1E5849FE007B489E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA79502F1E5849FE007B489E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA7950311E5849FE007B489E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7950191E5849FE007B489E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7950131E5849FD007B489E = {
+			isa = PBXGroup;
+			children = (
+				FA79501E1E5849FE007B489E /* Pachi */,
+				FA79501D1E5849FE007B489E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA79501D1E5849FE007B489E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA79501C1E5849FE007B489E /* Pachi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA79501E1E5849FE007B489E /* Pachi */ = {
+			isa = PBXGroup;
+			children = (
+				FA79501F1E5849FE007B489E /* AppDelegate.swift */,
+				FA7950211E5849FE007B489E /* GameScene.sks */,
+				FA7950231E5849FE007B489E /* Actions.sks */,
+				FA7950251E5849FE007B489E /* GameScene.swift */,
+				FA7950271E5849FE007B489E /* GameViewController.swift */,
+				FA7950291E5849FE007B489E /* Main.storyboard */,
+				FA79502C1E5849FE007B489E /* Assets.xcassets */,
+				FA79502E1E5849FE007B489E /* LaunchScreen.storyboard */,
+				FA7950311E5849FE007B489E /* Info.plist */,
+			);
+			path = Pachi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA79501B1E5849FE007B489E /* Pachi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7950341E5849FE007B489E /* Build configuration list for PBXNativeTarget "Pachi" */;
+			buildPhases = (
+				FA7950181E5849FE007B489E /* Sources */,
+				FA7950191E5849FE007B489E /* Frameworks */,
+				FA79501A1E5849FE007B489E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pachi;
+			productName = Pachi;
+			productReference = FA79501C1E5849FE007B489E /* Pachi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7950141E5849FE007B489E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alejandro Fernandez Gonzalez";
+				TargetAttributes = {
+					FA79501B1E5849FE007B489E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C786ETL36W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA7950171E5849FE007B489E /* Build configuration list for PBXProject "Pachi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7950131E5849FD007B489E;
+			productRefGroup = FA79501D1E5849FE007B489E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA79501B1E5849FE007B489E /* Pachi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA79501A1E5849FE007B489E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA79502B1E5849FE007B489E /* Main.storyboard in Resources */,
+				FA7950221E5849FE007B489E /* GameScene.sks in Resources */,
+				FA79502D1E5849FE007B489E /* Assets.xcassets in Resources */,
+				FA7950301E5849FE007B489E /* LaunchScreen.storyboard in Resources */,
+				FA7950241E5849FE007B489E /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7950181E5849FE007B489E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7950261E5849FE007B489E /* GameScene.swift in Sources */,
+				FA7950281E5849FE007B489E /* GameViewController.swift in Sources */,
+				FA7950201E5849FE007B489E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA7950291E5849FE007B489E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA79502A1E5849FE007B489E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA79502E1E5849FE007B489E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA79502F1E5849FE007B489E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7950321E5849FE007B489E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FA7950331E5849FE007B489E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7950351E5849FE007B489E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C786ETL36W;
+				INFOPLIST_FILE = Pachi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.Pachi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA7950361E5849FE007B489E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C786ETL36W;
+				INFOPLIST_FILE = Pachi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.Pachi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7950171E5849FE007B489E /* Build configuration list for PBXProject "Pachi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7950321E5849FE007B489E /* Debug */,
+				FA7950331E5849FE007B489E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7950341E5849FE007B489E /* Build configuration list for PBXNativeTarget "Pachi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7950351E5849FE007B489E /* Debug */,
+				FA7950361E5849FE007B489E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7950141E5849FE007B489E /* Project object */;
+}
